@@ -1,11 +1,11 @@
 body {
-background-color: red;
+background-color: #071131;
 }
 
 .tg_iframe .tg-event-button {
     border-radius: 0;
    color: #fff;
-    background: blue;
-    text-align: start;
+    background: #bac9fa;
+    text-align: center;
     
 }
