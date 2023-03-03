@@ -20,6 +20,10 @@ background-color: #0036704a;
           color: #7dd2ff;
 }
 
+.tg_iframe header h1 {
+          margin: 0;
+}
+
 .tg_iframe header a:hover {
           color: #bac9fa88;
  text-decoration: none;
