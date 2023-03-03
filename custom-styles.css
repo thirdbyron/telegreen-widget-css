@@ -60,14 +60,14 @@ body.tg_iframe {
     #aad3f5,
     #bac9fa
 );
- transition: 0.2s;
+
     color: #edeef3;
  border-radius: 8px;
 }
 
 .tg_iframe .step-onlytid .tg-event-element-name-tr:hover {
  outline: 2px solid #7f6198;
- transition: 0.2s;
+
 }
    
 
