@@ -86,4 +86,8 @@ body.tg_iframe {
  margin: 0;
 }
 
-
+.tg-event-element-name-tr:hover .tg-event-element-name {
+    border: none;
+    box-shadow: unset;
+    background: none;
+}
