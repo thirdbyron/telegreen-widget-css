@@ -55,10 +55,11 @@ body.tg_iframe {
     rgb(244 244 244 / 50%) 100%
 );
     color: #edeef3;
- borde-radius: 10px;
+ border-radius: 8px;
 }
 
 .tg_iframe .step-onlytid .tg-event-element-name {
+ border: none;
     margin: 0;
  display: grid;
  padding: 15px;
