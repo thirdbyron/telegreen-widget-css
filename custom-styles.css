@@ -28,6 +28,10 @@ body.tg_iframe {
  display: none;   
 }
 
+.tg_iframe .container-fluid {
+    padding: 5px 4px;
+}
+
 .tg_iframe .step-onlytid .container {
     display: grid;
     gap: 20px;
@@ -62,7 +66,7 @@ body.tg_iframe {
 }
 
 .tg_iframe .step-onlytid .tg-event-element-name-tr:hover {
- border: 2px solid #7f6198;
+ outline: 2px solid #7f6198;
  transition: 0.2s;
 }
    
