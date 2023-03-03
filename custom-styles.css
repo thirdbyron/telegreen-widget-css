@@ -63,3 +63,17 @@ body.tg_iframe {
  display: grid;
  padding: 15px;
 }
+
+.tg_iframe .step-onlytid .tg-event-element-name .tg-event-image {
+ display: none;
+}
+
+.tg_iframe .step-onlytid .tg-event-element-name .age_category {
+ display: none;
+}
+
+.tg_iframe .step-onlytid .tg-event-element-name .tg-event-theme {
+ display: none;
+}
+
+
