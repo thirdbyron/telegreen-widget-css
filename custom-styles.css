@@ -81,4 +81,8 @@ body.tg_iframe {
  cursor: default;
 }
 
+.tg_iframe .step-onlytid .tg-event-element-name .tg-event-name {
+ margin: 0;
+}
+
 
