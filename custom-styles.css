@@ -3,6 +3,7 @@ background-color: #0036704a;
 }
 
 .tg_iframe header {
+          position: initial;
           display: grid;
     border-radius: 5px 5px 0px 0px;
     background: #7978c5;
