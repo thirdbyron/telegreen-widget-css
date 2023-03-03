@@ -18,11 +18,11 @@ background-color: transparent;
  display: none;   
 }
 
-.tg_iframe step-onlytid .page-title-wrapper {
+.tg_iframe .step-onlytid .page-title-wrapper {
  display: none;   
 }
 
-.tg_iframe step-onlytid container {
+.tg_iframe .step-onlytid container {
     display: grid;
     gap: 10px;
     width: 100%;
