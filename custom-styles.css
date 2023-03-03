@@ -1,10 +1,10 @@
 body {
-
+ background-color: transparent;
 }
 
-body .tg_iframe {
-   background-color: transparent;
-    min-height: 200px;
+body.tg_iframe {
+    height: unset;
+    min-height: 100px;
     overflow: hidden;
 }
 
