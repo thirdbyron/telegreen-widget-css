@@ -56,10 +56,16 @@ body.tg_iframe {
     #aad3f5,
     #bac9fa
 );
-
+ transition: 0.2s;
     color: #edeef3;
  border-radius: 8px;
 }
+
+.tg_iframe .step-onlytid .tg-event-element-name-tr:hover {
+ border: 2px solid #7f6198;
+ transition: 0.2s;
+}
+   
 
 .tg_iframe .step-onlytid .tg-event-element-name {
  border: none;
@@ -91,6 +97,7 @@ body.tg_iframe {
 }
 
 .tg_iframe .step-onlytid .tg-event-element-name .tg-event-flex {
+ display: grid;
  gap: 12px;
 }
 
