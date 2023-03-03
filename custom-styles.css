@@ -13,3 +13,11 @@ background-color: transparent;
 .tg_iframe .page {
  
 }
+
+.tg_frame .footerTitleTG {
+ display: none;   
+}
+
+.tg_frame .page-title-wrapper {
+ display: none;   
+}
