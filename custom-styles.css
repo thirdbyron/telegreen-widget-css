@@ -9,6 +9,11 @@ background-color: #0036704a;
     background: #7978c5;
 }
 
+.tg_iframe .page {
+    padding: 20px !important; 
+    padding-top: 0 !important; 
+}
+
 .tg_iframe header a {
           color: #7dd2ff;
 }
