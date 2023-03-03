@@ -1,0 +1,9 @@
+.uc-div-tg iframe {
+    width: 500px;
+    background-color: aqua !important;
+}
+
+.uc-div-tg iframe #document {
+    width: 500px !important;
+    background-color: aqua !important;
+}
