@@ -37,3 +37,12 @@ background-color: transparent;
     margin-right: 0;
     margin-left: 0;
 }
+
+.tg_iframe .step-onlytid .tg-event-element-name-tr {
+    background: #02081b;
+    color: #edeef3;
+}
+
+.tg_iframe .step-onlytid .tg-event-element-name {
+    margin: 0;
+}
