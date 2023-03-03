@@ -18,6 +18,20 @@ background-color: transparent;
  display: none;   
 }
 
-.tg_iframe .page-title-wrapper {
+.tg_iframe step-onlytid .page-title-wrapper {
  display: none;   
+}
+
+.tg_iframe step-onlytid container {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-auto-columns: auto;
+    max-width: 100%;
+    width: 100%; 
+   padding-right:0;
+   padding-left:0; 
+    margin-right: 0;
+    margin-left: 0;
 }
