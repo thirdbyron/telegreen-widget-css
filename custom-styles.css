@@ -76,7 +76,7 @@ body.tg_iframe {
     margin: 0;
   
  display: grid;
- align-content: center;
+ align-content: stretch;
  padding: 24px 18px;
 }
 
@@ -108,7 +108,10 @@ body.tg_iframe {
 .tg_iframe .step-onlytid .tg-event-element-name .tg-event-buttons {
  gap: 12px;
   display: grid;
+     margin-top: 15px;
     justify-items: end;
+     align-items: center;
+    height: 100%;
 }
 
 
