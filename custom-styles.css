@@ -1,16 +1,15 @@
 body {
-background-color: #071131;
+background-color: transparent;
 }
 
 .tg_iframe .tg-event-button {
     border-radius: 0;
    color: #fff;
     background: #bac9fa;
-    text-align: start;
+    text-align: center;
     
 }
 
 .tg_iframe .page {
-    padding: 60px 10px !important;
-
+ 
 }
