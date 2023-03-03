@@ -3,7 +3,11 @@
     background-color: aqua !important;
 }
 
-.uc-div-tg iframe #document {
+.uc-div-tg  #document {
     width: 500px !important;
     background-color: aqua !important;
+}
+
+.body {
+background-color: red;
 }
