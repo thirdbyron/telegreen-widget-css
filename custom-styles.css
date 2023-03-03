@@ -16,8 +16,8 @@ body.tg_iframe {
     cursor: pointer;
 }
 
-.tg_iframe .page {
- 
+.tg_iframe .tg-event-button:hover {
+    box-shadow: 0px 0px 2px 2px #4d058a;
 }
 
 .tg_iframe .footerTitleTG {
