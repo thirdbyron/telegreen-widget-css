@@ -334,7 +334,7 @@ transition: 0.2s;
               box-shadow: 0 1px 5px rgb(89 32 161);
     align-items: center;
     grid-template-columns: 1fr 1fr;
-
+    position: unset;
 }
 
 .tg_iframe .step-active .container .tg-tickets-total .btn-wrapper  {
@@ -360,6 +360,7 @@ transition: 0.2s;
     justify-content: center;
     justify-items: end;
     gap: 15px;
+
 }
 
 
@@ -451,18 +452,12 @@ margin: 0;
 }
 
 
-
-
-
-@media all and (min-width: 1251px) {
-.tg_iframe .tg-tickets-total   {
-        width: 100%;
-    position: unset;
-}
-    .tg_iframe .b-select-tickets  {
-      padding-bottom: 150px;
-}
       
+}
+
+@media (min-width: 576px)
+.container, .container-sm {
+    max-width: unset;
 }
 
 
