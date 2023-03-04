@@ -291,6 +291,21 @@ body.tg_iframe {
         justify-content: start;
 }
 
+.tg_iframe .step-active .container  {
+    display: grid;
+    gap: 20px;
+        justify-content: start;
+}
+
+.tg_iframe .step-active .container .tg-event-kkt-description  {
+    display: none;
+}
+
+.tg_iframe .step-active .container .page-subtitle   {
+    margin: 0;
+}
+
+
 .tg_iframe .step-active  .page-title-wrapper {
 color: #edeef3;
 }
