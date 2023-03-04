@@ -306,7 +306,49 @@ body.tg_iframe {
     display: grid;
     gap: 20px;
         justify-content: start;
+        grid-template-columns: 100%;
 }
+
+.tg_iframe .step-active .container .tarif_group   {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tg_iframe .step-active .container .tg-tickets-total   {
+     background: linear-gradient(90deg, #381d64 0%, #140243 100%);
+    border: 1px solid #350a53;
+       display: grid;
+    grid-auto-flow: column;
+    height: auto;
+              box-shadow: 0 1px 5px rgb(89 32 161);
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tg_iframe .step-active .container .tg-tickets-total .btn-wrapper  {
+     margin: 0;
+}
+
+.tg_iframe .step-active .container .tg-tickets-total .btn-wrapper .btn  {
+     color: transparent;
+    border: 1px solid #5b17a3;
+}
+
+.tg_iframe .step-active .container .tg-tickets-total .b-selected-tickets-total  {
+     color: #edeef3;
+    min-height: unset;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    justify-items: end;
+    gap: 15px;
+}
+
+
+
+
+
 
 .tg_iframe .step-active .container .tg-event-kkt-description  {
     display: none;
@@ -314,6 +356,17 @@ body.tg_iframe {
 
 .tg_iframe .step-active .container .page-subtitle   {
     margin: 0;
+    color: #edeef3;
+}
+
+.tg_iframe .step-active .container .levelname   {
+    display: none;
+}
+
+
+
+.tg_iframe .step-active .container .orderElement {
+    min-height: unset;
 }
 
 
@@ -327,9 +380,12 @@ color: #edeef3;
         padding: 15px;
 }
 
-.tg_iframe .page-title .eventName {
+.tg_iframe .step-active .container-col .eventName {
     margin: 0;
     justify-self: start;
 }
+
+
+
 
 
