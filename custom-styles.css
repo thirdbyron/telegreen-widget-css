@@ -68,6 +68,20 @@ body.tg_iframe {
     box-shadow: 0px 0px 2px 2px #4d058a;
 }
 
+.tg_iframe .btn-wrapper {
+    margin: 0;
+}
+
+.tg_iframe .btn-wrapper .btn {
+    background: transparent;
+    border: 1px solid #5b17a3;
+}
+
+.tg_iframe .btn-wrapper .btn:hover {
+    background: linear-gradient(to top, #381d64 0%, #6955f6 100%);
+    border: 1px solid #5b17a8;
+}
+
 .tg_iframe .footerTitleTG {
     display: none;
 }
@@ -341,19 +355,7 @@ body.tg_iframe {
     position: unset;
 }
 
-.tg_iframe .step-active .container .tg-tickets-total .btn-wrapper {
-    margin: 0;
-}
 
-.tg_iframe .step-active .container .tg-tickets-total .btn-wrapper .btn {
-    background: transparent;
-    border: 1px solid #5b17a3;
-}
-
-.tg_iframe .step-active .container .tg-tickets-total .btn-wrapper .btn:hover {
-    background: linear-gradient(to top, #381d64 0%, #6955f6 100%);
-    border: 1px solid #5b17a8;
-}
 
 .tg_iframe .step-active .container .tg-tickets-total .b-selected-tickets-total {
     color: #edeef3;
