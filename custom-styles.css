@@ -52,7 +52,7 @@ body.tg_iframe {
 }
 
 .tg_iframe .tg-event-button a {
-    color: #fff;
+    color: #edeef3;
     padding: 5px 30px;
     height: 100%;
     width: 100%;
@@ -116,7 +116,7 @@ body.tg_iframe {
  display: none;
 }
 
-.tg_iframe .step-onlytid .tg-event-element-name .age_category {
+.tg_iframe .age_category {
  display: none;
 }
 
@@ -155,4 +155,38 @@ body.tg_iframe {
     box-shadow: unset;
     background: none;
            color: #edeef3;
+}
+
+.tg_iframe .step-event  {
+    display: grid;
+    gap: 20px;
+        justify-content: start;
+}
+
+.tg_iframe .step-event .page-title-wrapper .row {
+    display: grid;
+}
+
+.tg_iframe .step-event .page-title-wrapper .col-lg-6 {
+    max-width: unset;
+    padding: 0;
+}
+
+.tg_iframe .step-event .page-title-wrapper .page-title {
+     display: grid;
+    color: #edeef3;
+    justify-items: start;
+    background: transparent;
+}
+
+.tg_iframe .step-event .container  {
+        display: grid;
+    gap: 20px;
+  color: #edeef3;
+}
+
+.tg_iframe .step-event .container .tg-events-all  {
+        display: grid;
+    gap: 20px;
+  color: #edeef3;
 }
