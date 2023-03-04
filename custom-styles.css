@@ -483,9 +483,10 @@ body.tg_iframe {
     margin: 0;
 }
 
-.tg_iframe .step-form .container form .customer-contacts noath-radio-div {
+.tg_iframe .step-form .container form .customer-contacts div:first-child:nth-child(2) {
     display: none;
 }
+
 
 
 customer-contacts .tg_iframe .step-form .container .page-subtitle {
