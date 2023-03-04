@@ -194,3 +194,39 @@ body.tg_iframe {
     gap: 20px;
   color: #edeef3;
 }
+
+.tg_iframe .step-event .container .tg-events-all .tg-select-datetime  {
+       display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    gap: 30px;
+    vertical-align: top;
+}
+
+.tg_iframe .step-event .container .tg-events-all .tg-select-datetime form-control  {
+       margin: 0;
+}
+
+.tg_iframe .step-event .container .tg-events-all .b-select-time  {
+        padding: 0;
+}
+
+.tg_iframe .flatpickr-calendar.inline {
+   
+    top: 0px;
+}
+
+.tg_iframe .flatpickr-months {
+        background: linear-gradient(90deg, #381d64 0%, #180048 100%);
+    box-sizing: content-box;
+    border-radius: 0px;
+}
+
+.tg_iframe .flatpickr-calendar {
+ backgraound: transparent;   
+}
+
+.tg_iframe .flatpickr-innerContainer {
+    
+    background: #f2f1f7;
+}
