@@ -211,6 +211,12 @@ body.tg_iframe {
         padding: 0;
 }
 
+.tg_iframe .step-event .container .tg-events-all .b-select-time .select-time-item  {
+        color: #edeef3;
+}
+
+
+
 .tg_iframe .flatpickr-calendar.inline {
    
     top: 0px;
@@ -229,4 +235,23 @@ body.tg_iframe {
 .tg_iframe .flatpickr-innerContainer {
     
     background: #f2f1f7;
+}
+
+.tg_iframe .flatpickr-months .flatpickr-next-month.flatpickr-next-month {
+    right: 16px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.tg_iframe .flatpickr-current-month {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto auto;
+    justify-items: start;
+    align-items: center;
+}
+
+.tg_iframe .flatpickr-current-month .cur-month {
+    justify-self: end;
 }
