@@ -224,6 +224,7 @@ body.tg_iframe {
 
 .tg_iframe .back-btn-wrapper {
     display: grid;
+        justify-items: start;
 }
 
 .tg_iframe .back-btn-wrapper .back-btn {
