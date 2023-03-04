@@ -183,6 +183,8 @@ body.tg_iframe {
     color: #edeef3;
     justify-items: start;
     background: transparent;
+    margin: 0;
+        padding: 0px 15px;
 }
 
 .tg_iframe .step-event .container  {
@@ -202,7 +204,8 @@ body.tg_iframe {
     grid-auto-flow: column;
     justify-content: start;
     gap: 30px;
-    vertical-align: top;
+   
+        grid-template-columns: 1fr 1fr;
 }
 
 .tg_iframe .step-event .container .tg-events-all .tg-select-datetime .form-control  {
@@ -211,6 +214,8 @@ body.tg_iframe {
 
 .tg_iframe .step-event .container .tg-events-all .b-select-time  {
         padding: 0;
+    justify-self: start;
+    width: 100% !important;
 }
 
 .tg_iframe .step-event .container .tg-events-all .b-select-time .select-time-item  {
