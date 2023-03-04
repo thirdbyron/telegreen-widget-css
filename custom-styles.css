@@ -487,6 +487,9 @@ body.tg_iframe {
     display: none;
 }
 
+.tg_iframe .step-form .container form .customer-contacts div:first-child .tr_5 {
+    display: none;
+}
 
 
 customer-contacts .tg_iframe .step-form .container .page-subtitle {
