@@ -322,12 +322,6 @@ body.tg_iframe {
     display: grid;
     gap: 20px;
     justify-content: start;
-}
-
-.tg_iframe .step-active {
-    display: grid;
-    gap: 20px;
-    justify-content: start;
     grid-template-columns: 100%;
 }
 
