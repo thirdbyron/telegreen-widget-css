@@ -216,6 +216,23 @@ body.tg_iframe {
         color: #edeef3;
 }
 
+.tg_iframe .back-btn-wrapper {
+    display: grid;
+}
+
+.tg_iframe .back-btn-wrapper .back-btn {
+    color: #b2b2b2;
+}
+
+.tg_iframe .back-btn-wrapper .back-btn:hover {
+     color: #b2b2b2;
+    text-decoration: none;
+}
+
+.tg_iframe .back-btn-wrapper .back-btn svg {
+    stroke: #b2b2b2 !important;
+}
+
 
 
 .tg_iframe .flatpickr-calendar.inline {
@@ -259,4 +276,20 @@ body.tg_iframe {
 
 .tg_iframe .flatpickr-current-month .cur-month {
     justify-self: end;
+}
+
+.tg_iframe .step-active  {
+    display: grid;
+    gap: 20px;
+        justify-content: start;
+}
+
+.tg_iframe .step-active  {
+    display: grid;
+    gap: 20px;
+        justify-content: start;
+}
+
+.tg_iframe .step-active  .page-title-wrapper {
+color: #edeef3;
 }
