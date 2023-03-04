@@ -448,13 +448,11 @@ margin: 0;
 }
 
 .th_iframe .step-form .container {
-
+background: transparent;
 }
 
 
-      
-}
-
+   
 @media (min-width: 576px)
 .container, .container-sm {
     max-width: unset;
