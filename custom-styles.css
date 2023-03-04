@@ -294,3 +294,16 @@ body.tg_iframe {
 .tg_iframe .step-active  .page-title-wrapper {
 color: #edeef3;
 }
+
+.tg_iframe .step-active .container-col {
+    display: grid;
+    gap: 20px;
+        padding: 15px;
+}
+
+.tg_iframe .page-title .eventName {
+    margin: 0;
+    justify-self: start;
+}
+
+
