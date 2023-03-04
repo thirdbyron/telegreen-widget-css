@@ -221,13 +221,14 @@ body.tg_iframe {
 
 .tg_iframe .step-event .container .tg-events-all .b-select-time .select-time-item  {
         color: #edeef3;
+    transition: 0.2s;
 }
 
 .tg_iframe .step-event .container .tg-events-all .b-select-time .select-time-item:hover {
-    background: transparent;
-    border-color: #569ff7;
-    color: #569ff7;
-    font-weight: 900;
+    background: #cbb4f93d;;
+    border-color: #2a185f;
+    color: white;
+transition: 0.2s;
 }
 
 .tg_iframe .back-btn-wrapper {
@@ -333,7 +334,7 @@ body.tg_iframe {
               box-shadow: 0 1px 5px rgb(89 32 161);
     align-items: center;
     grid-template-columns: 1fr 1fr;
-    position: unset;
+
 }
 
 .tg_iframe .step-active .container .tg-tickets-total .btn-wrapper  {
@@ -427,12 +428,38 @@ color: #edeef3;
     text-align: start;
 }
 
+.th_iframe .step-form {
+display: grid;
+    gap: 20px;
+}
+
+.th_iframe .step-form .page-title-wrapper .d-none {
+display: none;
+}
+
+.th_iframe .step-form .page-title-wrapper .row {
+display: grid;
+}
+
+.th_iframe .step-form .page-title-wrapper .eventName {
+margin: 0;
+    padding: 0;
+}
+
+.th_iframe .step-form .container {
+
+}
+
+
+
+
+
 @media all and (min-width: 1251px) {
-.tg_iframe .step-active .container .tg-tickets-total   {
+.tg_iframe .tg-tickets-total   {
         width: 100%;
     position: unset;
 }
-    .tg_iframe .step-active .container .b-select-tickets  {
+    .tg_iframe .b-select-tickets  {
       padding-bottom: 150px;
 }
       
