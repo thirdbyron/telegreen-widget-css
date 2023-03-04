@@ -392,6 +392,12 @@ color: #edeef3;
     justify-self: start;
 }
 
+.tg_iframe .step-active .container-col .tg-event--short-description {
+    margin: 0;
+    text-align: start;
+}
+
+
 
 
 
