@@ -224,7 +224,7 @@ body.tg_iframe {
 
 .tg_iframe .back-btn-wrapper {
     display: grid;
-        justify-items: start;
+        justify-items: end;
 }
 
 .tg_iframe .back-btn-wrapper .back-btn {
@@ -331,7 +331,7 @@ body.tg_iframe {
 }
 
 .tg_iframe .step-active .container .tg-tickets-total .btn-wrapper .btn  {
-     color: transparent;
+     background: transparent;
     border: 1px solid #5b17a3;
 }
 
