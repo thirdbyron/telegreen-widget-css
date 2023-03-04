@@ -223,6 +223,13 @@ body.tg_iframe {
         color: #edeef3;
 }
 
+.tg_iframe .step-event .container .tg-events-all .b-select-time .select-time-item:hover {
+    background: transparent;
+    border-color: #569ff7;
+    color: #569ff7;
+    font-weight: 900;
+}
+
 .tg_iframe .back-btn-wrapper {
     display: grid;
         justify-items: end;
@@ -393,6 +400,7 @@ color: #edeef3;
 border-radius: 15px;
     margin: 0;
   border: 1px solid #2a185f;
+    background: #8cc4ed29;
 }
 
 .tg_iframe .step-active .eventsComplex .incEvents label {
@@ -405,7 +413,9 @@ color: #edeef3;
     color: black;
 }
 
-
+.ymaps-2-1-79-ymaps-geolink-dark {
+    color: lightgray !important;
+}
 
 .tg_iframe .step-active .container-col .eventName {
     margin: 0;
