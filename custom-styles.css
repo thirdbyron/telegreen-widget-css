@@ -1,19 +1,24 @@
 body {
-background-color: #0036704a;
+    background-color: #0228514a;
 }
 
 .tg_iframe header {
-          position: initial;
-          display: grid;
-    border-radius: 5px 5px 0px 0px;
-    background: #7978c5;
+              position: initial;
+    display: grid;
+    border-radius: 10px 10px 0px 0px;
+    background: linear-gradient(90deg, #381d64 0%, #140243 100%);
+    overflow: hidden;
+    border: 1px solid #350a53;
+    border-bottom: none;
+              box-shadow: 0 1px 5px rgb(89 32 161);
 }
 
 .tg_iframe .page {
-    padding: 20px !important; 
-    padding-top: 25px !important; 
-           border-radius: 0px 0px 5px 5px;
-    box-shadow: 0px 0px 1px 1px #7a7cc5 inset;
+    padding: 25px !important; 
+    padding-top: 30px !important; 
+          padding-bottom: 30px !important; 
+           border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 1px 1px #350a53 inset;
 }
 
 .tg_iframe header a {
@@ -42,6 +47,16 @@ body.tg_iframe {
     text-align: center;
     cursor: pointer;
   transition: 0.3s;
+          display: grid;
+          padding: 0;
+}
+
+.tg_iframe .tg-event-button a {
+    color: #fff;
+    padding: 5px 30px;
+    height: 100%;
+    width: 100%;
+    font-weight: 200;
 }
 
 .tg_iframe .tg-event-button:hover {
@@ -77,24 +92,21 @@ body.tg_iframe {
 }
 
 .tg_iframe .step-onlytid .tg-event-element-name-tr {
-    background: linear-gradient(
-    to bottom right,
-    #aad3f5,
-    #bac9fa,
-    #cbd0f0,
-    #aad3f5,
-    #bac9fa
-);
+        background: #0311514d;
+    border-radius: 8px;    
+       box-shadow: 0px 0px 4px 0px #7f7fff75;
+}
 
-    color: #edeef3;
- border-radius: 8px;
+.tg_iframe .step-onlytid .tg-event-element-name-tr:hover {
+       
+       box-shadow: 0px 0px 4px 1px #7f7fff75;
 }
    
 
 .tg_iframe .step-onlytid .tg-event-element-name {
  border: none;
     margin: 0;
-  
+ 
  display: grid;
  align-content: stretch;
  padding: 24px 18px;
@@ -114,6 +126,8 @@ body.tg_iframe {
 
 .tg_iframe .step-onlytid .tg-event-element-name .tg-event-elements-desc {
  cursor: default;
+          
+          color: #e3e3e3;
 }
 
 .tg_iframe .step-onlytid .tg-event-element-name .tg-event-flex * {
@@ -140,4 +154,5 @@ body.tg_iframe {
     border: none;
     box-shadow: unset;
     background: none;
+           color: #edeef3;
 }
