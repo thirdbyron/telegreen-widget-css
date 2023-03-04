@@ -124,6 +124,10 @@ body.tg_iframe {
  display: none;
 }
 
+.tg_iframe .step-onlytid .tg-event-element-name .tg-event-name {
+ color: #e3e3e3;
+}
+
 .tg_iframe .step-onlytid .tg-event-element-name .tg-event-elements-desc {
  cursor: default;
           
