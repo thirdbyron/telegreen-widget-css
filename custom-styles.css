@@ -381,6 +381,12 @@ color: #edeef3;
         padding: 15px;
 }
 
+.tg_iframe .step-active .orderElement {
+    border-radius: 5px;
+}
+
+
+
 .tg_iframe .step-active .container-col .eventName {
     margin: 0;
     justify-self: start;
