@@ -245,6 +245,10 @@ body.tg_iframe {
     justify-items: center;
 }
 
+.flatpickr-months .flatpickr-next-month:hover, .flatpickr-months .flatpickr-prev-month:hover {
+    background: #3f1b5e;
+}
+
 .tg_iframe .flatpickr-current-month {
     display: grid;
     grid-auto-flow: column;
