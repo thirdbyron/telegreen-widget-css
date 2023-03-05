@@ -569,12 +569,17 @@ body.tg_iframe {
     gap: 5px;
 }
 
+.tg_iframe .form-control-pt {
+    margin: 20px 0px;
+}
+
 .tg_iframe .tg-radiobox-div label {
     background: transparent;
     color: white;
     border: 1px solid #2a185f;
     padding: 10px 15px;
     margin: 10px;
+    border-radius: 25px;
 }
 
 .tg_iframe .form-control-pt input[type=radio]:checked+label {
