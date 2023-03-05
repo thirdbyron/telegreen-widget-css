@@ -625,7 +625,7 @@ body.tg_iframe {
     margin: 0;
 }
 
-.tg_iframe .step-active .customer-contacts .checkEmailManual {
+.tg_iframe .step-form .customer-contacts .checkEmailManual {
     margin: 0;
     display: grid;
     gap: 10px;
@@ -633,27 +633,27 @@ body.tg_iframe {
     justify-content: space-between;
 }
 
-.tg_iframe .step-active .customer-contacts button {
+.tg_iframe .step-form .customer-contacts button {
     margin: 0;
 
 }
 
-.tg_iframe .step-active .customer-contacts .checkEmailManual .form-control .rememberPsw {
+.tg_iframe .step-form .customer-contacts .checkEmailManual .form-control .rememberPsw {
     margin: 10px 0;
 }
 
-.tg_iframe .step-active .customer-contacts .checkEmailManual .form-control {
+.tg_iframe .step-form .customer-contacts .checkEmailManual .form-control {
     margin-top: 20px;
     grid-column: 1 / 3;
     width: 100%;
     display: grid;
 }
 
-.tg_iframe .step-active .customer-contacts .checkEmailManual .form-control input {
+.tg_iframe .step-form .customer-contacts .checkEmailManual .form-control input {
     width: 80% !important;
 }
 
-.tg_iframe .step-active .customer-contacts .ED_form_user_email {
+.tg_iframe .step-form .customer-contacts .ED_form_user_email {
     display: grid;
     grid-template-columns: 80%;
     justify-content: center;
