@@ -501,6 +501,14 @@ body.tg_iframe {
     justify-items: center;
 }
 
+.tg_iframe .step-form .page-title-wrapper .row .col-lg-6 {
+    max-width: 950px;
+    display: grid;
+    padding-left: 25px;
+}
+
+
+
 .tg_iframe .step-form .page-title-wrapper .eventName {
     margin: 0;
     padding: 0;
