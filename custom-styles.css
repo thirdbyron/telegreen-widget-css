@@ -356,6 +356,7 @@ body.tg_iframe {
     grid-template-columns: 1fr 1fr;
     position: unset;
     border-radius: 10px;
+        width: 100%;
 }
 
 
@@ -398,7 +399,7 @@ body.tg_iframe {
     color: #edeef3;
 }
 
-.tg_iframe .step-active .ticket-type-count-selector {
+.tg_iframe .step-active .ticket-type-count-selector button {
     border-radius: 20px;
     border: 1px solid #2a185f;
 }
@@ -426,8 +427,22 @@ body.tg_iframe {
 }
 
 .tg_iframe .step-active .ticket-type .row .col-6 {
-
+    display: grid;
+    gap: 15px;
     height: unset;
+        grid-template-columns: 100%;
+}
+
+.tg_iframe .step-active .ticket-type .row .col-6 .ticket-type-name {
+    height: 100%;
+        display: grid;
+        gap: 5px;
+}
+
+
+.tg_iframe .step-active .ticket-type .row .col-6 .ticket-type-price {
+    justify-self: center;
+        width: auto;
 }
 
 
@@ -513,23 +528,44 @@ body.tg_iframe {
     margin: 0;
 }
 
-.tg_iframe .step-form .container form .customer-contacts div:first-child {
+.tg_iframe .step-form .container form .customer-contacts div:nth-child(2) {
 
-    display: grid;
-    margin: 0;
+    display: none;
 }
 
 .tg_iframe .step-form .container form .customer-contacts .trdiv {
     margin-bottom: 20px;
 }
 
-.tg_iframe .step-form .container form .customer-contacts div:first-child .tr_2 {
+
+.tg_iframe .step-form .container form .customer-contacts div:nth-child(5) {
     display: none;
 }
 
-.tg_iframe .step-form .container form .customer-contacts div:first-child .tr_4 {
+.tg_iframe .step-form .container form .customer-contacts .tg-before-terms {
     display: none;
 }
+
+.tg_iframe .step-form .container form .customer-contacts .tg-terms {
+    margin: 0;
+    display: grid;
+    gap: 5px;
+}
+
+.tg_iframe .tg-radiobox-div {
+        background: linear-gradient(to bottom right, #aad3f5, #bac9fa, #cbd0f0, #aad3f5, #bac9fa);
+            color: black;
+            border-radius: 25px;
+            font-weight: bold;
+            padding: 10px 15px;
+}
+
+.tg_iframe .step-form .container form .customer-contacts .tg-terms .tg-terms-element {
+    margin: 0;
+}
+
+
+
 
 
 customer-contacts .tg_iframe .step-form .container .page-subtitle {
