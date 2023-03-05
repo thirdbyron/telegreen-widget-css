@@ -550,7 +550,7 @@ body.tg_iframe {
 }
 
 
-.tg_iframe .step-form .container form .customer-contacts .trdiv:has(.tr_4) {
+.tg_iframe .step-form .container form .customer-contacts .trdiv:has(.tr_1) {
     display: none;
 }
 
