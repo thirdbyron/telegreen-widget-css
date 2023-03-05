@@ -642,6 +642,11 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
     background: linear-gradient(to bottom right, #dceaf6, #e1e8ff, #dfe4ff, #daeeff, #cedaff);
 }
 
+.tg_iframe .step-active .scheme .divZoom {
+        background: transparent;
+    
+}
+
 .tg_iframe .step-active .schemeContainer .tg-div-price_container .price_p {
     padding: 8px;
     border-radius: 10px;
@@ -655,7 +660,7 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
 }
 
 .tg_iframe .step-active .schemeContainer .price_p.selected {
-    border: 3px solid rgb(87 21 192);
+    border: 3px solid #5b17a8;
     opacity: 1;
 }
 
