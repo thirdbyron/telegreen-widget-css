@@ -461,9 +461,22 @@ body.tg_iframe {
 .tg_iframe .step-active .eventsComplex .incEvents {
     border-radius: 15px;
     margin: 0;
+    margin-bottom: 20px;
+    display: grid;
+    gap: 10px;
     border: 1px solid #2a185f;
     background: #8cc4ed29;
 }
+
+.tg_iframe .step-active .eventsComplex .incEvents .eventKKTDescription {
+    display: none;
+}
+
+.tg_iframe .step-active .eventsComplex .incEvents .label {
+    margin-bottom: 0;
+}
+
+
 
 .tg_iframe .step-active .eventsComplex .incEvents label {
     color: #edeef3;
