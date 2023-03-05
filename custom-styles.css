@@ -293,7 +293,7 @@ body.tg_iframe {
 
 .tg_iframe .flatpickr-innerContainer {
 
-    background: #f2f1f7;
+    background: linear-gradient(to bottom right, #dceaf6, #e1e8ff, #dfe4ff, #daeeff, #cedaff);
 }
 
 .tg_iframe .flatpickr-months .flatpickr-next-month.flatpickr-next-month {
