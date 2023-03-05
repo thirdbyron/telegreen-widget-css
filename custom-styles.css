@@ -75,13 +75,13 @@ body.tg_iframe {
     margin: 0;
 }
 
-.tg_iframe .btn-wrapper .btn {
+.tg_iframe .btn {
     background: transparent;
     border: 1px solid #5b17a3;
     transition: 0.3s;
 }
 
-.tg_iframe .btn-wrapper .btn:hover {
+.tg_iframe .btn:hover {
     transition: 0.3s;
     background: linear-gradient(to top, #381d64 0%, #6955f6 100%);
     border: 1px solid #5b17a8;
@@ -622,7 +622,39 @@ body.tg_iframe {
     margin: 0;
 }
 
+.tg_iframe .step-active .customer-contacts .checkEmailManual {
+    margin: 0;
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+    justify-content: space-between;
+}
 
+.tg_iframe .step-active .customer-contacts button {
+    margin: 0;
+
+}
+
+.tg_iframe .step-active .customer-contacts .checkEmailManual .form-control .rememberPsw {
+    margin: 10px 0;
+}
+
+.tg_iframe .step-active .customer-contacts .checkEmailManual .form-control {
+    margin-top: 20px;
+    grid-column: 1 / 3;
+    width: 100%;
+    display: grid;
+}
+
+.tg_iframe .step-active .customer-contacts .checkEmailManual .form-control input {
+    width: 80% !important;
+}
+
+.tg_iframe .step-active .customer-contacts .ED_form_user_email {
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+}
 
 
 
@@ -645,8 +677,8 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
 }
 
 .tg_iframe .step-active .scheme .divZoom {
-        background: transparent;
-    
+    background: transparent;
+
 }
 
 .tg_iframe .step-active .schemeContainer .tg-div-price_container .price_p {
@@ -654,15 +686,17 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
     border-radius: 10px;
     border: 1px solid #ffffff;
     display: grid;
-        align-items: center;
+    align-items: center;
 }
 
-.tg_iframe .pricePcName * {
+.tg_iframe .pricePcName {
     color: rgb(68, 68, 68);
 }
 
+
 .tg_iframe .step-active .schemeContainer .price_p.selected {
-    border: 3px solid #5b17a8;
+    outline: 2px solid #5b17a8;
+    border: none;
     opacity: 1;
 }
 
@@ -727,5 +761,17 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
 
     .tg_iframe .b-select-tickets {
         padding-bottom: 150px;
+    }
+}
+
+@media (max-width: 660px) {
+    .tg_iframe .step-active .customer-contacts .checkEmailManual .form-control input {
+        width: 100% !important;
+    }
+
+    .tg_iframe .step-active .customer-contacts .ED_form_user_email {
+
+        grid-template-columns: 100%;
+
     }
 }
