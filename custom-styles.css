@@ -543,7 +543,7 @@ body.tg_iframe {
     display: none;
 }
 
-.tg_iframe .step-form .container form .customer-contacts>div:nth-child(2) {
+.tg_iframe .step-form .container form .customer-contacts div:has(.tr_1) {
 
     display: none;
 }
@@ -553,7 +553,7 @@ body.tg_iframe {
 }
 
 
-.tg_iframe .step-form .container form .customer-contacts>div:nth-child(5) {
+.tg_iframe .step-form .container form .customer-contacts div:has(.tr_4) {
     display: none;
 }
 
@@ -567,7 +567,7 @@ body.tg_iframe {
     gap: 5px;
 }
 
-.tg_iframe .tg-radiobox-div {
+.tg_iframe .tg-radiobox-div label {
     background: transparent;
     color: white;
     border: 1px solid #2a185f;
