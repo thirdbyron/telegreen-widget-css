@@ -543,17 +543,19 @@ body.tg_iframe {
     display: none;
 }
 
-.tg_iframe .step-form .container form .customer-contacts div:has(.tr_1) {
 
-    display: none;
-}
 
 .tg_iframe .step-form .container form .customer-contacts .trdiv {
     margin-bottom: 0;
 }
 
 
-.tg_iframe .step-form .container form .customer-contacts div:has(.tr_4) {
+.tg_iframe .step-form .container form .customer-contacts .trdiv:has(.tr_4) {
+    display: none;
+}
+
+.tg_iframe .step-form .container form .customer-contacts .trdiv:has(.tr_4) {
+
     display: none;
 }
 
