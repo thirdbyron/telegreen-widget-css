@@ -458,7 +458,7 @@ body.tg_iframe {
     padding: 15px;
 }
 
-.tg_iframe .step-active .scheme {
+.tg_iframe .step-active .scheme svg {
     height: 550px !important;
 }
 
