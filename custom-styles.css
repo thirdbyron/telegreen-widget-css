@@ -252,6 +252,14 @@ body.tg_iframe {
     transition: 0.2s;
 }
 
+.tg_iframe .select-time-item.active,
+.tg_iframe .select-time-item_.active {
+    background: rgba(107, 42, 180, 0.384);
+    border-color: #2a185f;
+    color: #fff;
+    font-weight: 900;
+}
+
 .tg_iframe .ticket-type-count-btn:not(:disabled):not(.disabled):hover svg {
     fill: #2a185f;
 }
@@ -476,11 +484,6 @@ body.tg_iframe {
 
 .tg_iframe .step-active .eventsComplex .incEvents .label {
     margin-bottom: 0;
-}
-
-
-
-.tg_iframe .step-active .eventsComplex .incEvents label {
     color: #edeef3;
 }
 
