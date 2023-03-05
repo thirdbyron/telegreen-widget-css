@@ -458,9 +458,7 @@ body.tg_iframe {
     padding: 15px;
 }
 
-.tg_iframe .step-active .scheme svg {
-    height: 550px !important;
-}
+
 
 .tg_iframe .step-active .eventsComplex .incEvents {
     border-radius: 15px;
@@ -612,7 +610,7 @@ body.tg_iframe {
 }
 
 .tg_iframe .form-control-pt input[type=radio]:checked+label {
-    background: linear-gradient(to bottom right, #aad3f5, #bac9fa, #cbd0f0, #aad3f5, #bac9fa);
+    background: linear-gradient(to bottom right, #dceaf6, #e1e8ff, #dfe4ff, #daeeff, #cedaff);
     color: black;
     border-radius: 25px;
     font-weight: bold;
@@ -632,6 +630,33 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
 
 .tg_iframe .step-form .container .page-subtitle div {
     display: none;
+}
+
+.tg_iframe .step-active .scheme svg {
+    height: 550px !important;
+}
+
+.tg_iframe .step-active .scheme {
+    border-radius: 5px;
+    margin-top: 10px;
+    background: linear-gradient(to bottom right, #dceaf6, #e1e8ff, #dfe4ff, #daeeff, #cedaff);
+}
+
+.tg_iframe .step-active .schemeContainer .tg-div-price_container .price_p {
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    display: grid;
+        align-items: center;
+}
+
+.tg_iframe .pricePcName * {
+    color: rgb(68, 68, 68);
+}
+
+.tg_iframe .step-active .schemeContainer .price_p.selected {
+    border: 3px solid rgb(87 21 192);
+    opacity: 1;
 }
 
 
