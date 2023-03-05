@@ -45,14 +45,16 @@ body.tg_iframe {
 }
 
 .tg_iframe .tg-event-button {
-    border-radius: 5px;
+    border-radius: 15px;
     color: #edeef3;
-    background: linear-gradient(90deg, #381d64 0%, rgb(9 13 42 / 80%) 100%);
+
     text-align: center;
     cursor: pointer;
     transition: 0.3s;
     display: grid;
     padding: 0;
+    background: transparent;
+    border: 1px solid #5b17a3;
 }
 
 .tg_iframe .tg-event-button a {
@@ -65,7 +67,8 @@ body.tg_iframe {
 
 .tg_iframe .tg-event-button:hover {
     transition: 0.3s;
-    box-shadow: 0px 0px 2px 2px #4d058a;
+    background: linear-gradient(to top, #381d64 0%, #6955f6 100%);
+    border: 1px solid #5b17a8;
 }
 
 .tg_iframe .btn-wrapper {
@@ -75,9 +78,11 @@ body.tg_iframe {
 .tg_iframe .btn-wrapper .btn {
     background: transparent;
     border: 1px solid #5b17a3;
+    transition: 0.3s;
 }
 
 .tg_iframe .btn-wrapper .btn:hover {
+    transition: 0.3s;
     background: linear-gradient(to top, #381d64 0%, #6955f6 100%);
     border: 1px solid #5b17a8;
 }
@@ -242,10 +247,13 @@ body.tg_iframe {
 
 .tg_iframe .step-event .container .tg-events-all .b-select-time .select-time-item:hover {
     background: #cbb4f93d;
-    ;
     border-color: #2a185f;
     color: white;
     transition: 0.2s;
+}
+
+.tg_iframe .ticket-type-count-btn:not(:disabled):not(.disabled):hover svg {
+    fill: #2a185f;
 }
 
 .tg_iframe .back-btn-wrapper {
@@ -320,7 +328,7 @@ body.tg_iframe {
 
 .tg_iframe .step-active {
     display: grid;
-    gap: 20px;
+    gap: 40px;
     justify-content: start;
     grid-template-columns: 100%;
 }
@@ -347,6 +355,7 @@ body.tg_iframe {
     align-items: center;
     grid-template-columns: 1fr 1fr;
     position: unset;
+    border-radius: 10px;
 }
 
 
@@ -370,8 +379,8 @@ body.tg_iframe {
     display: none;
 }
 
-.tg_iframe .step-active .container .page-subtitle {
-    margin: 0;
+.tg_iframe .container .page-subtitle {
+    margin-bottom: 20px;
     color: #edeef3;
 }
 
@@ -389,7 +398,43 @@ body.tg_iframe {
     color: #edeef3;
 }
 
+.tg_iframe .step-active .ticket-type-count-selector {
+    border-radius: 20px;
+    border: 1px solid #2a185f;
+}
 
+.tg_iframe .step-active .ticket-type-count-selector svg {
+    fill: #2a185f;
+}
+
+.ticket-type-count-btn:not(:disabled):not(.disabled):hover {
+    background: #cbb4f93d;
+    border-color: #2a185f;
+    transition: 0.2s;
+}
+
+.tg_iframe .step-active .ticket-type {
+    background: linear-gradient(to bottom right, #dceaf6, #e1e8ff, #dfe4ff, #daeeff, #cedaff);
+
+}
+
+.tg_iframe .step-active .ticket-type .row {
+    height: unset;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: auto 1fr;
+}
+
+.tg_iframe .step-active .ticket-type .row .col-6 {
+
+    height: unset;
+}
+
+
+
+.tg_iframe .step-active .ticket-type-count-selector .ticket-type-current-count {
+    color: #464646;
+}
 
 .tg_iframe .step-active .container-col {
     display: grid;
@@ -431,14 +476,9 @@ body.tg_iframe {
 
 .tg_iframe .step-form {
     display: grid;
- 
+
 }
 
-.page-subtitle
-
-.tg_iframe .step-form .page-title-wrapper .d-none {
-    display: none;
-}
 
 .tg_iframe .step-form .page-title-wrapper .row {
     display: grid;
@@ -474,7 +514,7 @@ body.tg_iframe {
 }
 
 .tg_iframe .step-form .container form .customer-contacts div:first-child {
-    
+
     display: grid;
     margin: 0;
 }
@@ -509,6 +549,14 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
     }
 }
 
+@media (min-width: 1024px) {
+
+    .container,
+    .container-sm {
+        max-width: 550px;
+    }
+}
+
 @media (max-width: 980px) and (orientation: portrait) {
     header {
         padding: 10px !important;
@@ -516,8 +564,42 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
 
     #spanTimer {
         position: fixed;
-            right: 30px;
-            top: 12px;
-            z-index: 99999;
+        right: 30px;
+        top: 12px;
+        z-index: 99999;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .container,
+    .container-sm {
+        max-width: 950px;
+    }
+}
+
+@media (min-width: 950px) {
+
+    .container,
+    .container-sm {
+        min-width: 950px;
+    }
+
+    div.tarif_group .ticket-type .row {
+        height: unset;
+        display: grid;
+    }
+
+    div.tarif_group .ticket-type .col:first-child {
+        height: unset;
+        display: block;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1251px) {
+
+    .tg_iframe .b-select-tickets {
+        padding-bottom: 150px;
     }
 }
