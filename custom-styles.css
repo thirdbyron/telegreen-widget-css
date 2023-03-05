@@ -458,6 +458,10 @@ body.tg_iframe {
     padding: 15px;
 }
 
+.tg_iframe .step-active .scheme {
+    height: 550px !important;
+}
+
 .tg_iframe .step-active .eventsComplex .incEvents {
     border-radius: 15px;
     margin: 0;
@@ -505,6 +509,10 @@ body.tg_iframe {
 .tg_iframe .step-form {
     display: grid;
 
+}
+
+.tg_iframe.form-control input:not(:disabled):not(.disabled):hover {
+    border-color: #2a185f;
 }
 
 
