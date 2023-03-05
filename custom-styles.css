@@ -47,7 +47,7 @@ body.tg_iframe {
 .tg_iframe .tg-event-button {
     border-radius: 15px;
     color: #edeef3;
-
+    transition: 0.3s;
     text-align: center;
     cursor: pointer;
     transition: 0.3s;
@@ -356,7 +356,7 @@ body.tg_iframe {
     grid-template-columns: 1fr 1fr;
     position: unset;
     border-radius: 10px;
-        width: 100%;
+    width: 100%;
 }
 
 
@@ -364,7 +364,7 @@ body.tg_iframe {
 .tg_iframe .step-active .container .tg-tickets-total .b-selected-tickets-total {
     color: #edeef3;
     min-height: unset;
-    padding: 0;
+    padding: 8px;
     display: grid;
     grid-auto-flow: column;
     justify-content: center;
@@ -430,19 +430,19 @@ body.tg_iframe {
     display: grid;
     gap: 15px;
     height: unset;
-        grid-template-columns: 100%;
+    grid-template-columns: 100%;
 }
 
 .tg_iframe .step-active .ticket-type .row .col-6 .ticket-type-name {
     height: 100%;
-        display: grid;
-        gap: 5px;
+    display: grid;
+    gap: 5px;
 }
 
 
 .tg_iframe .step-active .ticket-type .row .col-6 .ticket-type-price {
     justify-self: center;
-        width: auto;
+    width: auto;
 }
 
 
@@ -528,17 +528,32 @@ body.tg_iframe {
     margin: 0;
 }
 
-.tg_iframe .step-form .container form .customer-contacts div:nth-child(2) {
+.tg_iframe .step-form .container form .customer-contacts>div {
+
+    display: grid;
+    gap: 20px;
+}
+
+.tg_iframe .step-form .container form .customer-contacts .trdiv input {
+
+    border-radius: 10px;
+}
+
+.tg_iframe .ED_form_user_email {
+    display: none;
+}
+
+.tg_iframe .step-form .container form .customer-contacts>div:nth-child(2) {
 
     display: none;
 }
 
 .tg_iframe .step-form .container form .customer-contacts .trdiv {
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 
-.tg_iframe .step-form .container form .customer-contacts div:nth-child(5) {
+.tg_iframe .step-form .container form .customer-contacts>div:nth-child(5) {
     display: none;
 }
 
@@ -553,11 +568,18 @@ body.tg_iframe {
 }
 
 .tg_iframe .tg-radiobox-div {
-        background: linear-gradient(to bottom right, #aad3f5, #bac9fa, #cbd0f0, #aad3f5, #bac9fa);
-            color: black;
-            border-radius: 25px;
-            font-weight: bold;
-            padding: 10px 15px;
+    background: transparent;
+    color: white;
+    border: 1px solid #2a185f;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.tg_iframe .form-control-pt input[type=radio]:checked+label {
+    background: linear-gradient(to bottom right, #aad3f5, #bac9fa, #cbd0f0, #aad3f5, #bac9fa);
+    color: black;
+    border-radius: 25px;
+    font-weight: bold;
 }
 
 .tg_iframe .step-form .container form .customer-contacts .tg-terms .tg-terms-element {
