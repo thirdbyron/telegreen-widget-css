@@ -482,7 +482,7 @@ body.tg_iframe {
     display: none;
 }
 
-.tg_iframe .step-active .eventsComplex .incEvents .label {
+.tg_iframe .step-active .eventsComplex .incEvents label {
     margin-bottom: 0;
     color: #edeef3;
 }
