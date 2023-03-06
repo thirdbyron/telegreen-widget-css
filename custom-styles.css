@@ -650,10 +650,11 @@ body.tg_iframe {
 }
 
 .tg_iframe .step-form .customer-contacts .checkEmailManual .form-control input {
+    margin-top: 20px;
     width: 80% !important;
 }
 
-.tg_iframe .step-form .customer-contacts .ED_form_user_email {
+.tg_iframe .step-form .customer-contacts #ED_form_user_email {
     display: grid;
     grid-template-columns: 80%;
     justify-content: center;
@@ -768,11 +769,11 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
 }
 
 @media (max-width: 660px) {
-    .tg_iframe .step-active .customer-contacts .checkEmailManual .form-control input {
+    .tg_iframe .step-form .customer-contacts .checkEmailManual .form-control input {
         width: 100% !important;
     }
 
-    .tg_iframe .step-active .customer-contacts .ED_form_user_email {
+    .tg_iframe .step-form .customer-contacts #ED_form_user_email {
 
         grid-template-columns: 100%;
 
