@@ -651,7 +651,7 @@ body.tg_iframe {
 
 .tg_iframe .step-form .customer-contacts .checkEmailManual .form-control input {
     margin-top: 20px;
-    width: 80% !important;
+    width: 100% !important;
 }
 
 .tg_iframe .step-form .customer-contacts #ED_form_user_email {
