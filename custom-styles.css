@@ -1,5 +1,5 @@
 body {
-    background-color: #0228514a;
+    background-color: transparent;
     color: #edeef3;
 }
 
@@ -7,11 +7,11 @@ body {
     position: initial;
     display: grid;
     border-radius: 10px 10px 0px 0px;
-    background: linear-gradient(90deg, #381d64 0%, #140243 100%);
+    background: rgba(25, 2, 78, 0.4);
     overflow: hidden;
-    border: 1px solid #350a53;
+    border: none;
     border-bottom: none;
-    box-shadow: 0 1px 5px rgb(89 32 161);
+    box-shadow: 0px 0px 4px 2px rgb(70 20 116 / 50%);
     padding: 20px;
 }
 
@@ -22,11 +22,12 @@ body {
     padding-top: 30px !important;
     padding-bottom: 30px !important;
     border-radius: 0px 0px 10px 10px;
-    box-shadow: 0px 0px 1px 1px #350a53 inset;
+    box-shadow: 0px 0px 4px 2px rgba(70, 20, 116, 0.5);
 }
 
 .tg_iframe header a {
-    color: #7dd2ff;
+    color: #e8e8e8;
+    transition: 0.2s;
 }
 
 .tg_iframe header h1 {
@@ -36,6 +37,7 @@ body {
 .tg_iframe header a:hover {
     color: #bac9fa88;
     text-decoration: none;
+    transition: 0.2s;
 }
 
 body.tg_iframe {
@@ -53,8 +55,9 @@ body.tg_iframe {
     transition: 0.3s;
     display: grid;
     padding: 0;
+    outline: 1px solid #5b17a800;
+    box-shadow: 0px 0px 4px 2px rgba(70, 20, 116, 0.7);
     background: transparent;
-    border: 1px solid #5b17a3;
 }
 
 .tg_iframe .tg-event-button a {
@@ -67,8 +70,9 @@ body.tg_iframe {
 
 .tg_iframe .tg-event-button:hover {
     transition: 0.3s;
-    background: linear-gradient(to top, #381d64 0%, #6955f6 100%);
-    border: 1px solid #5b17a8;
+
+    outline: 1px solid #5b17a8e1;
+    box-shadow: 0px 0px 4px 2px rgba(70, 20, 116, 0.4);
 }
 
 .tg_iframe .btn-wrapper {
@@ -77,14 +81,16 @@ body.tg_iframe {
 
 .tg_iframe .btn {
     background: transparent;
-    border: 1px solid #5b17a3;
+    outline: 1px solid #5b17a800;
+    box-shadow: 0px 0px 4px 2px rgba(70, 20, 116, 0.7);
     transition: 0.3s;
 }
 
 .tg_iframe .btn:hover {
     transition: 0.3s;
-    background: linear-gradient(to top, #381d64 0%, #6955f6 100%);
-    border: 1px solid #5b17a8;
+
+    outline: 1px solid #5b17a8e1;
+    box-shadow: 0px 0px 4px 2px rgba(70, 20, 116, 0.4);
 }
 
 .tg_iframe .footerTitleTG {
@@ -117,13 +123,8 @@ body.tg_iframe {
 .tg_iframe .step-onlytid .tg-event-element-name-tr {
     background: #0311514d;
     border-radius: 8px;
-    box-shadow: 0px 0px 4px 0px #7f7fff50;
+    box-shadow: 0px 0px 4px 2px rgb(70 20 116 / 50%);
     transition: 0.2s;
-}
-
-.tg_iframe .step-onlytid .tg-event-element-name-tr:hover {
-    transition: 0.2s;
-    box-shadow: 0px 0px 4px 0px #7f7fff75;
 }
 
 
@@ -359,12 +360,12 @@ body.tg_iframe {
 }
 
 .tg_iframe .step-active .container .tg-tickets-total {
-    background: linear-gradient(90deg, #381d64 0%, #140243 100%);
-    border: 1px solid #350a53;
+    background: rgba(25, 2, 78, 0.4);
+    border-top: none;
     display: grid;
     grid-auto-flow: column;
     height: auto;
-    box-shadow: 0 1px 5px rgb(89 32 161);
+    box-shadow: 0px 0px 2px 1px rgba(70, 20, 116, 0.5);
     align-items: center;
     grid-template-columns: 1fr 1fr;
     position: unset;
