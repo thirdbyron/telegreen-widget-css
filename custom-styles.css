@@ -559,6 +559,12 @@ body.tg_iframe {
     padding: 20px;
 }
 
+.tg_iframe .tg-getOrderInfo {
+    left: 20px !important;
+    bottom: 70px;
+
+}
+
 .tg_iframe .step-form .container form {
     gap: 40px;
     display: grid;
@@ -775,7 +781,12 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
     }
 }
 
-@media (min-width: 1251px) {
+@media (min-width: 1250px) {
+    .tg_iframe .tg-getOrderInfo {
+        left: 20px !important;
+        bottom: 70px;
+
+    }
 
     .tg_iframe .b-select-tickets {
         padding-bottom: 150px;
@@ -795,6 +806,42 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
+
+    .tg_iframe .step-active .container .tg-tickets-total .b-selected-tickets-total {
+
+        grid-auto-flow: row;
+
+        justify-items: start;
+        gap: 10px;
+    }
+
+    .tg_iframe .step-form .customer-contacts button {
+
+        height: 100%;
+        font-size: 14px;
+    }
+
+    .tg_iframe .tg-radiobox-div label {
+
+        padding: 10px;
+
+    }
+
+    .tg_iframe .step-form .container form .customer-contacts .trdiv input {
+
+        padding: 10px;
+    }
+
+    .tg_iframe .container .page-subtitle {
+        margin-bottom: 5px;
+
+    }
+
+    .tg_iframe .step-form .page-title-wrapper .row .col-lg-6 {
+
+        margin: 20px 0;
+    }
+
     .tg_iframe .step-onlytid .tg-event-element-name {
 
         padding: 16px 14px;
@@ -936,6 +983,43 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
 }
 
 @media all and (max-width: 480px) {
+
+
+    .tg_iframe .step-active .container .tg-tickets-total .b-selected-tickets-total {
+
+        grid-auto-flow: row;
+
+        justify-items: start;
+        gap: 10px;
+    }
+
+    .tg_iframe .step-form .customer-contacts button {
+
+        height: 100%;
+        font-size: 14px;
+    }
+
+    .tg_iframe .tg-radiobox-div label {
+
+        padding: 10px;
+
+    }
+
+    .tg_iframe .step-form .container form .customer-contacts .trdiv input {
+
+        padding: 10px;
+    }
+
+    .tg_iframe .container .page-subtitle {
+        margin-bottom: 5px;
+
+    }
+
+    .tg_iframe .step-form .page-title-wrapper .row .col-lg-6 {
+
+        margin: 20px 0;
+    }
+
     .tg_iframe .step-onlytid .tg-event-element-name {
 
         padding: 16px 14px;
@@ -1057,8 +1141,8 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
 
     .tg_iframe .step-active .ticket-type-count-selector button {
 
-        width: 30px;
-        height: 30px;
+        width: 34px;
+        height: 34px;
     }
 
     .tg_iframe .btn {
@@ -1074,4 +1158,5 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
     .tg_iframe .step-active .ticket-type {
         padding: 15px;
     }
+
 }
