@@ -240,6 +240,10 @@ body.tg_iframe {
     width: 100% !important;
 }
 
+.tg_iframe .step-event .back-btn-wrapper {
+    display: none;
+}
+
 .tg_iframe .step-event .container .tg-events-all .b-select-time .select-time-item {
     color: #edeef3;
     transition: 0.2s;
@@ -779,3 +783,77 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
 
     }
 }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .tg_iframe .step-onlytid .tg-event-element-name {
+
+        padding: 16px 14px;
+    }
+
+    .tg_iframe .tg-event-element {
+        min-width: auto !important;
+        margin: 0 !important;
+    }
+
+    .tg_iframe .step-onlytid .container {
+
+        gap: 15px;
+
+
+    }
+
+    .tg_iframe .page {
+        padding: 15px !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .tg_iframe .tg-event-element-name-tr {
+        margin: 0 !important;
+    }
+
+    .tg_iframe .container,
+    .container-fluid,
+    .container-sm {
+
+        padding: 0 !important;
+    }
+
+    .tg_iframe .step-onlytid .tg-event-element-name .tg-event-name {
+        font-size: 16px;
+    }
+
+    .tg_iframe .tg-event-button {
+        min-width: 90px;
+    }
+
+    .tg_iframe header {
+        padding: 10px;
+    }
+
+    .tg_iframe .tg-event-button a {
+        padding: 5px 15px;
+    }
+
+    .tg_iframe .step-onlytid .tg-event-element-name .tg-event-flex {
+        gap: 8px;
+    }
+
+    .tg_iframe .dayContainer {
+        gap: 2px;
+    }
+
+    .tg_iframe .step-event .container .tg-events-all .tg-select-datetime {
+        display: grid;
+        grid-auto-flow: row;
+        gap: 20px;
+        margin-top: 10px;
+        grid-template-columns: 1fr;
+    }
+
+    .tg_iframe .flatpickr-innerContainer {
+        padding: 10px;
+    }
+}
+
+@media all and (max-width: 480px) {}
