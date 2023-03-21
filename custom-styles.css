@@ -621,12 +621,16 @@ body.tg_iframe {
     display: none;
 }
 
-.tg_iframe .step-form .container form .customer-contacts div:nth-child(2) {
+.tg_iframe .step-form .container form .customer-contacts .trdiv:nth-child(2) {
     display: none;
 }
 
 .tg_iframe .step-form .container form .customer-contacts .trdiv:has(.tr_4) {
 
+    display: none;
+}
+
+.tg_iframe .step-form .container form .customer-contacts .trdiv:nth-child(5) {
     display: none;
 }
 
