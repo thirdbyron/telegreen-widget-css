@@ -16,7 +16,6 @@ body {
 }
 
 
-
 .tg_iframe .page {
     padding: 25px !important;
     padding-top: 30px !important;
@@ -55,7 +54,7 @@ body.tg_iframe {
     transition: 0.3s;
     display: grid;
     padding: 0;
-    outline: 1px solid #5b17a800;
+    border: 1px solid #5b17a800;
     box-shadow: 0px 0px 4px 2px rgba(70, 20, 116, 0.7);
     background: transparent;
 }
@@ -71,7 +70,7 @@ body.tg_iframe {
 .tg_iframe .tg-event-button:hover {
     transition: 0.3s;
 
-    outline: 1px solid #5b17a8e1;
+    border: 1px solid #5b17a8e1;
     box-shadow: 0px 0px 4px 2px rgba(70, 20, 116, 0.4);
 }
 
@@ -81,16 +80,15 @@ body.tg_iframe {
 
 .tg_iframe .btn {
     background: transparent;
-    outline: 1px solid #5b17a800 !important;
+    border: 1px solid #5b17a800 !important;
     box-shadow: 0px 0px 4px 2px rgba(70, 20, 116, 0.7);
-    border: none;
     transition: 0.3s;
 }
 
 .tg_iframe .btn:hover {
     transition: 0.3s;
 
-    outline: 1px solid #5b17a8e1 !important;
+    border: 1px solid #5b17a8e1 !important;
     box-shadow: 0px 0px 4px 2px rgba(70, 20, 116, 0.4);
 }
 
@@ -415,12 +413,11 @@ body.tg_iframe {
 }
 
 .tg_iframe .step-active .ticket-type-count-selector button {
-    border-radius: 20px;
     border: 1px solid #2a185f;
 }
 
 .tg_iframe .step-active .ticket-type-count-selector svg {
-    fill: #2a185f;
+    z-index: 100;
 }
 
 .ticket-type-count-btn:not(:disabled):not(.disabled):hover {
@@ -969,11 +966,7 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
         padding: 0px;
     }
 
-    .tg_iframe .step-active .ticket-type-count-selector button {
-
-        width: 34px;
-        height: 34px;
-    }
+ 
 
     .tg_iframe .btn {
         min-width: 120px;
@@ -1149,12 +1142,6 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
         min-height: 50px;
         min-width: 100px;
         padding: 0px;
-    }
-
-    .tg_iframe .step-active .ticket-type-count-selector button {
-
-        width: 34px;
-        height: 34px;
     }
 
     .tg_iframe .btn {
