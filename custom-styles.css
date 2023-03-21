@@ -304,6 +304,10 @@ body.tg_iframe {
     background: transparent;
 }
 
+.tg_iframe .flatpickr-calendar::before {
+    display: none;
+}
+
 .tg_iframe .flatpickr-innerContainer {
 
     background: linear-gradient(to bottom right, #dceaf6, #e1e8ff, #dfe4ff, #daeeff, #cedaff);
@@ -617,7 +621,7 @@ body.tg_iframe {
     display: none;
 }
 
-.tg_iframe .step-form .container form .customer-contacts > div:nth-child(2)  {
+.tg_iframe .step-form .container form .customer-contacts div:nth-child(2) {
     display: none;
 }
 
