@@ -417,6 +417,7 @@ body.tg_iframe {
 }
 
 .tg_iframe .step-active .ticket-type-count-selector svg {
+    fill: #2a185f;
     z-index: 100;
 }
 
