@@ -421,6 +421,16 @@ body.tg_iframe {
     z-index: 100;
 }
 
+.tg_iframe .customer-contacts .tg-getOrderInfo {
+    left: 0 !important;
+    color: gray;
+    padding: 0;
+}
+
+.tg_iframe .tg-getOrderInfo .orderElement {
+    border-radius: 5px;
+}
+
 .ticket-type-count-btn:not(:disabled):not(.disabled):hover {
     background: #cbb4f93d;
     border-color: #2a185f;
@@ -604,6 +614,10 @@ body.tg_iframe {
 
 
 .tg_iframe .step-form .container form .customer-contacts .trdiv:has(.tr_1) {
+    display: none;
+}
+
+.tg_iframe .step-form .container form .customer-contacts > div:nth-child(2)  {
     display: none;
 }
 
@@ -967,7 +981,7 @@ customer-contacts .tg_iframe .step-form .container .page-subtitle {
         padding: 0px;
     }
 
- 
+
 
     .tg_iframe .btn {
         min-width: 120px;
