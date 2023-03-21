@@ -638,6 +638,8 @@ body.tg_iframe {
     display: none;
 }
 
+
+
 .tg_iframe .step-form .container form .customer-contacts .tg-terms {
     margin: 0;
     display: grid;
@@ -683,6 +685,12 @@ body.tg_iframe {
 
 .tg_iframe .step-form .customer-contacts .checkEmailManual .form-control .rememberPsw {
     margin: 10px 0;
+    color: white;
+}
+
+.tg_iframe .step-form .customer-contacts .checkEmailManual .form-control .rememberPsw span {
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .tg_iframe .step-form .customer-contacts .checkEmailManual .form-control {
